@@ -19,4 +19,5 @@ describe('EventList component renders correctly', () => {
     );
     expect(rendered.toJSON()).toMatchSnapshot();
   });
+  
 });

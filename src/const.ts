@@ -50,75 +50,93 @@ export const EventType = [
 ];
 
 export const EventColumn = [{
-    title: 'bettable',
-    dataIndex: 'bettable',
-    key: 'bettable',
-  }, {
-    title: 'chart_time_period',
-    dataIndex: 'chart_time_period',
-    key: 'chart_time_period',
-  }, {
-    title: 'created',
-    dataIndex: 'created',
-    key: 'created',
-  }, {
-    title: 'description',
-    dataIndex: 'description',
-    key: 'description',
-  }, {
-    title: 'display_order',
-    dataIndex: 'display_order',
-    key: 'display_order',
-  }, {
-    title: 'end_date',
-    dataIndex: 'end_date',
-    key: 'end_date',
-  }, {
-    title: 'full_slug',
-    dataIndex: 'full_slug',
-    key: 'full_slug',
-  }, {
-    title: 'inplay_enabled',
-    dataIndex: 'inplay_enabled',
-    key: 'inplay_enabled',
-  }, {
-    title: 'modified',
-    dataIndex: 'modified',
-    key: 'modified',
-  }, {
     title: 'name',
     dataIndex: 'name',
     key: 'name',
+    width: 100,
   }, {
     title: 'seo_description',
     dataIndex: 'seo_description',
     key: 'seo_description',
+    width: 500,
   }, {
     title: 'short_name',
     dataIndex: 'short_name',
     key: 'short_name',
+    width: 300,
+  }, {
+    title: 'bettable',
+    dataIndex: 'bettable',
+    key: 'bettable',
+    width: 300,
+  }, {
+    title: 'chart_time_period',
+    dataIndex: 'chart_time_period',
+    key: 'chart_time_period',
+    width: 300,
+  }, {
+    title: 'created',
+    dataIndex: 'created',
+    key: 'created',
+    width: 300,
+  }, {
+    title: 'description',
+    dataIndex: 'description',
+    key: 'description',
+    width: 300,
+  }, {
+    title: 'display_order',
+    dataIndex: 'display_order',
+    key: 'display_order',
+    width: 300,
+  }, {
+    title: 'end_date',
+    dataIndex: 'end_date',
+    key: 'end_date',
+    width: 300,
+  }, {
+    title: 'full_slug',
+    dataIndex: 'full_slug',
+    key: 'full_slug',
+    width: 300,
+  }, {
+    title: 'inplay_enabled',
+    dataIndex: 'inplay_enabled',
+    key: 'inplay_enabled',
+    width: 300,
+  }, {
+    title: 'modified',
+    dataIndex: 'modified',
+    key: 'modified',
+    width: 300,
   }, {
     title: 'slug',
     dataIndex: 'slug',
     key: 'slug',
+    width: 300,
   }, {
     title: 'special_rules',
     dataIndex: 'special_rules',
     key: 'special_rules',
+    width: 300,
   }, {
     title: 'start_date',
     dataIndex: 'start_date',
     key: 'start_date',
+    width: 300,
   }, {
     title: 'start_datetime',
     dataIndex: 'start_datetime',
     key: 'start_datetime',
+    width: 300,
   }, {
     title: 'state',
     dataIndex: 'state',
     key: 'state',
+    width: 300,
   }, {
     title: 'type',
     dataIndex: 'type',
     key: 'type',
+    width: 300,
   }];

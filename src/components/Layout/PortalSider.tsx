@@ -16,7 +16,7 @@ const PortalSider: SFC<OwnProps> = () => {
   return (
     <Sider className="portal-sider" width="256">
       <div className="portal-sider-header">
-        <img src={fullLogo} height="32" />
+        <img src={fullLogo} height="32" alt="smarkets" />
       </div>
       <div className="portal-sider-main">
         <Menu

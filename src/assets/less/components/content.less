@@ -1,5 +1,5 @@
 .main-header{
-  height: 70px;
+  min-height: 70px;
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -9,6 +9,16 @@
 }
 .main-container{
   margin: 24px;
+  padding: 12px 20px;
   background-color: #fff;
   flex: 1;
+  &-action{
+    margin-bottom: 10px;
+    >.ant-select{
+      margin-right: 10px;
+    }
+    >button{
+      float: right;
+    }
+  }
 }
