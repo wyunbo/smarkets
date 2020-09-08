@@ -1,0 +1,826 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventList component renders correctly renders correctly 1`] = `
+<section
+  className="ant-layout ant-layout-has-sider portal-layout"
+>
+  <aside
+    className="ant-layout-sider ant-layout-sider-dark portal-sider"
+    style={
+      Object {
+        "flex": "0 0 256px",
+        "maxWidth": "256px",
+        "minWidth": "256px",
+        "width": "256px",
+      }
+    }
+  >
+    <div
+      className="ant-layout-sider-children"
+    >
+      <div
+        className="portal-sider-header"
+      >
+        <img
+          height="32"
+          src="https://smarkets.com/static/img/smarkets-logo.svg"
+        />
+      </div>
+      <div
+        className="portal-sider-main"
+      >
+        <ul
+          className="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
+          onMouseEnter={[Function]}
+          onTransitionEnd={[Function]}
+          role="menu"
+          style={Object {}}
+        >
+          <li
+            className="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open ant-menu-submenu-selected"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            role="menuitem"
+          >
+            <div
+              aria-expanded={true}
+              aria-haspopup="true"
+              aria-owns="Event$Menu"
+              className="ant-menu-submenu-title"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              role="button"
+              style={
+                Object {
+                  "paddingLeft": 24,
+                }
+              }
+            >
+              <span
+                aria-label="dribbble"
+                className="anticon anticon-dribbble"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  className=""
+                  data-icon="dribbble"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M512 96C282.6 96 96 282.6 96 512s186.6 416 416 416 416-186.6 416-416S741.4 96 512 96zm275.1 191.8c49.5 60.5 79.5 137.5 80.2 221.4-11.7-2.5-129.2-26.3-247.4-11.4-2.5-6.1-5-12.2-7.6-18.3-7.4-17.3-15.3-34.6-23.6-51.5C720 374.3 779.6 298 787.1 287.8zM512 157.2c90.3 0 172.8 33.9 235.5 89.5-6.4 9.1-59.9 81-186.2 128.4-58.2-107-122.7-194.8-132.6-208 27.3-6.6 55.2-9.9 83.3-9.9zM360.9 191c9.4 12.8 72.9 100.9 131.7 205.5C326.4 440.6 180 440 164.1 439.8c23.1-110.3 97.4-201.9 196.8-248.8zM156.7 512.5c0-3.6.1-7.3.2-10.9 15.5.3 187.7 2.5 365.2-50.6 10.2 19.9 19.9 40.1 28.8 60.3-4.7 1.3-9.4 2.7-14 4.2C353.6 574.9 256.1 736.4 248 750.1c-56.7-63-91.3-146.3-91.3-237.6zM512 867.8c-82.2 0-157.9-28-218.1-75 6.4-13.1 78.3-152 278.7-221.9l2.3-.8c49.9 129.6 70.5 238.3 75.8 269.5A350.46 350.46 0 01512 867.8zm198.5-60.7c-3.6-21.6-22.5-125.6-69-253.3C752.9 536 850.7 565.2 862.8 569c-15.8 98.8-72.5 184.2-152.3 238.1z"
+                  />
+                </svg>
+              </span>
+              <span>
+                Events
+              </span>
+              <i
+                className="ant-menu-submenu-arrow"
+              />
+            </div>
+            <ul
+              className="ant-menu ant-menu-sub ant-menu-inline"
+              id="Event$Menu"
+              role="menu"
+              style={Object {}}
+            >
+              <li
+                className="ant-menu-item ant-menu-item-only-child ant-menu-item-selected"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                role="menuitem"
+                style={
+                  Object {
+                    "paddingLeft": 48,
+                  }
+                }
+              >
+                Event list
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+  <section
+    className="ant-layout portal-content"
+  >
+    <header
+      className="ant-layout-header portal-header"
+    >
+      <div
+        className="ant-row"
+        style={Object {}}
+      >
+        <div
+          className="ant-col ant-col-24"
+          style={
+            Object {
+              "textAlign": "right",
+            }
+          }
+        >
+          <div
+            className="portal-header-user-data"
+          >
+            <div
+              className="portal-header-user-info"
+            >
+              <a
+                className="portal-header-user-name"
+              >
+                Hello
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      className="ant-layout-content main-content"
+    >
+      <div
+        className="main-header"
+      >
+        <div
+          className="ant-row"
+          style={Object {}}
+        >
+          <div
+            className="ant-col"
+            style={Object {}}
+          >
+            <span
+              className="main-header-title"
+            >
+              title
+            </span>
+          </div>
+          <div
+            className="ant-col"
+            style={
+              Object {
+                "textAlign": "right",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="main-container"
+      >
+        <div>
+          <div
+            className="ant-select ant-select-single ant-select-show-arrow"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            style={
+              Object {
+                "width": "300px",
+              }
+            }
+          >
+            <div
+              className="ant-select-selector"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="ant-select-selection-search"
+              >
+                <input
+                  aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                  aria-autocomplete="list"
+                  aria-controls="rc_select_TEST_OR_SSR_list"
+                  aria-haspopup="listbox"
+                  aria-owns="rc_select_TEST_OR_SSR_list"
+                  autoComplete="off"
+                  className="ant-select-selection-search-input"
+                  id="rc_select_TEST_OR_SSR"
+                  onChange={[Function]}
+                  onCompositionEnd={[Function]}
+                  onCompositionStart={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onPaste={[Function]}
+                  readOnly={true}
+                  role="combobox"
+                  style={
+                    Object {
+                      "opacity": 0,
+                    }
+                  }
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                className="ant-select-selection-placeholder"
+              >
+                Please choose type
+              </span>
+            </div>
+            <span
+              aria-hidden={true}
+              className="ant-select-arrow"
+              onMouseDown={[Function]}
+              style={
+                Object {
+                  "WebkitUserSelect": "none",
+                  "userSelect": "none",
+                }
+              }
+              unselectable="on"
+            >
+              <span
+                aria-label="down"
+                className="anticon anticon-down ant-select-suffix"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  className=""
+                  data-icon="down"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                  />
+                </svg>
+              </span>
+            </span>
+          </div>
+          <div
+            className="ant-select ant-select-single ant-select-show-arrow"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            style={
+              Object {
+                "width": "300px",
+              }
+            }
+          >
+            <div
+              className="ant-select-selector"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="ant-select-selection-search"
+              >
+                <input
+                  aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                  aria-autocomplete="list"
+                  aria-controls="rc_select_TEST_OR_SSR_list"
+                  aria-haspopup="listbox"
+                  aria-owns="rc_select_TEST_OR_SSR_list"
+                  autoComplete="off"
+                  className="ant-select-selection-search-input"
+                  id="rc_select_TEST_OR_SSR"
+                  onChange={[Function]}
+                  onCompositionEnd={[Function]}
+                  onCompositionStart={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onPaste={[Function]}
+                  readOnly={true}
+                  role="combobox"
+                  style={
+                    Object {
+                      "opacity": 0,
+                    }
+                  }
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                className="ant-select-selection-placeholder"
+              >
+                Please choose state
+              </span>
+            </div>
+            <span
+              aria-hidden={true}
+              className="ant-select-arrow"
+              onMouseDown={[Function]}
+              style={
+                Object {
+                  "WebkitUserSelect": "none",
+                  "userSelect": "none",
+                }
+              }
+              unselectable="on"
+            >
+              <span
+                aria-label="down"
+                className="anticon anticon-down ant-select-suffix"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  className=""
+                  data-icon="down"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                  />
+                </svg>
+              </span>
+            </span>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-table-wrapper"
+          >
+            <div
+              className="ant-spin-nested-loading"
+            >
+              <div>
+                <div
+                  className="ant-spin ant-spin-spinning"
+                >
+                  <span
+                    className="ant-spin-dot ant-spin-dot-spin"
+                  >
+                    <i
+                      className="ant-spin-dot-item"
+                    />
+                    <i
+                      className="ant-spin-dot-item"
+                    />
+                    <i
+                      className="ant-spin-dot-item"
+                    />
+                    <i
+                      className="ant-spin-dot-item"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+                className="ant-spin-container ant-spin-blur"
+              >
+                <div
+                  className="ant-table ant-table-empty ant-table-scroll-horizontal"
+                >
+                  <div
+                    className="ant-table-container"
+                  >
+                    <div
+                      className="ant-table-content"
+                      onScroll={[Function]}
+                      style={
+                        Object {
+                          "overflowX": "auto",
+                          "overflowY": "hidden",
+                        }
+                      }
+                    >
+                      <table
+                        style={
+                          Object {
+                            "minWidth": "100%",
+                            "tableLayout": "auto",
+                            "width": "auto",
+                          }
+                        }
+                      >
+                        <colgroup />
+                        <thead
+                          className="ant-table-thead"
+                        >
+                          <tr>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              bettable
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              chart_time_period
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              created
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              description
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              display_order
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              end_date
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              full_slug
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              inplay_enabled
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              modified
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              name
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              seo_description
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              short_name
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              slug
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              special_rules
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              start_date
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              start_datetime
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              state
+                            </th>
+                            <th
+                              className="ant-table-cell"
+                              colSpan={null}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              type
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody
+                          className="ant-table-tbody"
+                        >
+                          <tr
+                            aria-hidden="true"
+                            className="ant-table-measure-row"
+                            style={
+                              Object {
+                                "height": 0,
+                              }
+                            }
+                          >
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                            <td
+                              style={
+                                Object {
+                                  "border": 0,
+                                  "height": 0,
+                                  "padding": 0,
+                                }
+                              }
+                            />
+                          </tr>
+                          <tr
+                            className="ant-table-placeholder"
+                            style={
+                              Object {
+                                "display": null,
+                              }
+                            }
+                          >
+                            <td
+                              className="ant-table-cell"
+                              colSpan={18}
+                              rowSpan={null}
+                              style={Object {}}
+                            >
+                              <div
+                                className="ant-table-expanded-row-fixed"
+                                style={
+                                  Object {
+                                    "left": 0,
+                                    "overflow": "hidden",
+                                    "position": "sticky",
+                                    "width": 0,
+                                  }
+                                }
+                              >
+                                <div
+                                  className="ant-empty ant-empty-normal"
+                                >
+                                  <div
+                                    className="ant-empty-image"
+                                  >
+                                    <svg
+                                      className="ant-empty-img-simple"
+                                      height="41"
+                                      viewBox="0 0 64 41"
+                                      width="64"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <g
+                                        fill="none"
+                                        fillRule="evenodd"
+                                        transform="translate(0 1)"
+                                      >
+                                        <ellipse
+                                          className="ant-empty-img-simple-ellipse"
+                                          cx="32"
+                                          cy="33"
+                                          rx="32"
+                                          ry="7"
+                                        />
+                                        <g
+                                          className="ant-empty-img-simple-g"
+                                          fillRule="nonzero"
+                                        >
+                                          <path
+                                            d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+                                          />
+                                          <path
+                                            className="ant-empty-img-simple-path"
+                                            d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+                                          />
+                                        </g>
+                                      </g>
+                                    </svg>
+                                  </div>
+                                  <p
+                                    className="ant-empty-description"
+                                  >
+                                    No Data
+                                  </p>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+</section>
+`;
