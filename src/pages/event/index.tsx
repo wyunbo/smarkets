@@ -130,7 +130,7 @@ const EventList =() => {
                       "MM/DD/YYYY HH:mm:ss"
                     )}</span>
                   }else{
-                    return <span>{text}{record.key}</span>
+                    return <span className="two-lines">{text}{record.key}</span>
                   }
                 }}
               />)}
